@@ -7,6 +7,7 @@ import jakarta.ws.rs.core.MediaType;
 
 public class GreetingBaseResource {
 
+    // Should be protected but it isn't
     @GET
     @Path("/baseHello")
     @Produces(MediaType.TEXT_PLAIN)
